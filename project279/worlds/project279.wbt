@@ -1,0 +1,25 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.26128339090512914 0.26958073022025575 0.926853397000319 1.615489852789837
+  position -0.06920406902003415 -2.263823486436496 1.3227232593394245
+}
+Solid {
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Cylinder {
+        height 0.5
+        radius 0.05
+      }
+    }
+  ]
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+}
